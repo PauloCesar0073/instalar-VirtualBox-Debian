@@ -39,7 +39,8 @@ fi
 
 textplain "Instalando o VirtualBox"
 
-wget https://download.virtualbox.org/virtualbox/7.0.8/VirtualBox-7.0.8-156879-Linux_amd64.run && chmod +x VirtualBox-7.0.8-156879-Linux_amd64.run || exit_with_error "Falha ao baixar o VirtualBox"
+wget https://download.virtualbox.org/virtualbox/7.0.8/VirtualBox-7.0.8-156879-Linux_amd64.run && chmod +x VirtualBox-7.0.8-156879-Linux_amd64.run && ./VirtualBox-7.0.8-156879-Linux_amd64.run
+|| exit_with_error "Falha ao baixar o VirtualBox"
 clear
 
 textplain "Instalando dependências"
